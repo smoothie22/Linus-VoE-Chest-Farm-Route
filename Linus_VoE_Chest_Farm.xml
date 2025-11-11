@@ -17,13 +17,6 @@
 				<MarkerCategory name="ocl" displayName="Large Obscured Chest" iconFile="Data/OCL.png" iconSize="0.5" behavior="2" maxSize="2048" mapDisplaySize="40" heightoffset="0.0" />
 			</MarkerCategory>
 			<MarkerCategory name="macs" displayName="Mirrors and Chests Signs">
-				<MarkerCategory name="p1s" displayName="Path 1 Start" iconFile="Data/start_path_1.png"/>
-				<MarkerCategory name="p2s" displayName="Path 2 Start" iconFile="Data/start_path_2.png"/>
-				<MarkerCategory name="p3s" displayName="Path 3 Start" iconFile="Data/start_path_3.png"/>
-				<MarkerCategory name="p4s" displayName="Path 4 Start" iconFile="Data/start_path_4.png"/>
-				<MarkerCategory name="p5s" displayName="Path 5 Start" iconFile="Data/start_path_5.png"/>
-				<MarkerCategory name="p6s" displayName="Path 6 Start" iconFile="Data/start_path_6.png"/>
-				
 				<MarkerCategory name="p1e" displayName="Path 1 End" iconFile="Data/info_box_path_1_end.png"/>
 				<MarkerCategory name="p2e" displayName="Path 2 End" iconFile="Data/info_box_path_2_end.png"/>
 				<MarkerCategory name="p3e" displayName="Path 3 End" iconFile="Data/info_box_path_3_end.png"/>
@@ -40,7 +33,6 @@
 		</MarkerCategory>
 		<MarkerCategory name="sw" displayName="Starlit Weald">
 			<MarkerCategory name="cfr" displayName="Chest Farm Route" fadeNear="3000" fadeFar="3500">
-				<MarkerCategory name="cfrs" displayName="Chest Farm Route Start" iconFile="Data/chest_farm_route_start.png"/>
 				<MarkerCategory name="p1" displayName="Path 1" texture="Data/Red_Trail.png"/>
 				<MarkerCategory name="p2" displayName="Path 2" texture="Data/Orange_Trail.png"/>
 				<MarkerCategory name="p3" displayName="Path 3" texture="Data/Yellow_Trail.png"/>
@@ -52,9 +44,6 @@
 				<MarkerCategory name="ocl" displayName="Large Obscured Chest" iconFile="Data/OCL.png" iconSize="0.5" behavior="2" maxSize="2048" mapDisplaySize="40" heightoffset="0.0" />
 			</MarkerCategory>
 			<MarkerCategory name="macs" displayName="Mirrors and Chests Signs">
-				<MarkerCategory name="p1s" displayName="Path 1 Start" iconFile="Data/start_path_1.png"/>
-				<MarkerCategory name="p2s" displayName="Path 2 Start" iconFile="Data/start_path_2.png"/>
-				<MarkerCategory name="p3s" displayName="Path 3 Start" iconFile="Data/start_path_3.png"/>
 				<MarkerCategory name="p1e" displayName="Path 1 End" iconFile="Data/info_box_path_1_end.png"/>
 				<MarkerCategory name="p2e" displayName="Path 2 End" iconFile="Data/info_box_path_2_end.png"/>
 				<MarkerCategory name="p1mm" displayName="Path 1 Mini Marker" iconFile="Data/mini_map_path_1.png"/>
@@ -63,31 +52,34 @@
 			</MarkerCategory>
 		</MarkerCategory>
 	</MarkerCategory>
+
 	<POIs>
-		<POI MapID="1593" xpos="511.19" ypos="1.25243" zpos="-528.185" type="Linus_VoE_Chest_Farm.sw.macs.p1s" GUID="c/mLYaeDwkWXD8G8zK+z8Q==" iconSize="0.5" mapDisplaySize="50" miniMapVisibility="0" mapVisibility="0" />
-		<POI MapID="1593" xpos="-155.96" ypos="62.2645" zpos="-105.773" type="Linus_VoE_Chest_Farm.sw.macs.p2s" GUID="rLVaKHxRDkuh2Uad3Fv1fg==" iconSize="0.5" mapDisplaySize="50" miniMapVisibility="0" mapVisibility="0"/>
-		<POI MapID="1593" xpos="-65.5128" ypos="4.27324" zpos="377.259" type="Linus_VoE_Chest_Farm.sw.macs.p3s" GUID="U7s8JPlbX0GBr50d0V9sXA==" iconSize="0.5" mapDisplaySize="50" miniMapVisibility="0" mapVisibility="0"/>
-		<POI MapID="1593" xpos="850.987" ypos="51.024" zpos="432.618" type="Linus_VoE_Chest_Farm.sw.macs.p1e" GUID="Du5zm2UxuEWB9CME/Nxk8w==" iconSize="0.5" miniMapVisibility="0" mapVisibility="0"/>
-		<POI MapID="1593" xpos="-200.743" ypos="2.13728" zpos="591.413" type="Linus_VoE_Chest_Farm.sw.macs.p2e" GUID="G6mMPHCyyUWE9cFRLpDhFA==" miniMapVisibility="0" miniMapVisibility="0" mapVisibility="0"/>
+		<POI MapID="1593" xpos="501.959" ypos="2.59033" zpos="-530.748" type="Linus_VoE_Chest_Farm.sw.macs.p1mm" GUID="gYLg3QCvZUW4/JKaGi75BA==" iconSize="0.3" miniMapVisibility="0" mapVisibility="0"/>
+		<POI MapID="1593" xpos="-157.997" ypos="62.1176" zpos="-104.195" type="linus_voe_chest_farm.sw.macs.p2mm" GUID="7VHcn8H1Zk+gYpUTLu4uTQ==" iconSize="0.3" miniMapVisibility="0" mapVisibility="0"/>
+		<POI MapID="1593" xpos="-65.7593" ypos="4.26396" zpos="377.06" type="linus_voe_chest_farm.sw.macs.p3mm" GUID="zKNmUi5pQ0uD6C/zWWKcYQ==" iconSize="0.3" miniMapVisibility="0" mapVisibility="0"/>
+		<POI MapID="1593" xpos="850.561" ypos="50.7434" zpos="430.592" type="Linus_VoE_Chest_Farm.sw.macs.p1e" copy="[&BJ4PAAA=]" copy-message="Priory Expedition waypoint copied!" GUID="Du5zm2UxuEWB9CME/Nxk8w==" iconSize="0.8" miniMapVisibility="0" mapVisibility="0"/>
+		<POI MapID="1593" xpos="-204.196" ypos="1.41206" zpos="595.845" type="Linus_VoE_Chest_Farm.sw.macs.p2e" copy="[&BIoPAAA=]" copy-message="Hunter's Camp waypoint copied!" GUID="G6mMPHCyyUWE9cFRLpDhFA==" iconSize="1.2" miniMapVisibility="0" mapVisibility="0"/>
 		
 		<POI MapID="1593" xpos="507.275" ypos="1.49355" zpos="-512.204" type="Linus_VoE_Chest_Farm.sw.macs.p1mm" GUID="PT5r6uQwwkyKQ+XPgn1RJg==" inGameVisibility="0"/>
-		<POI MapID="1593" xpos="528.844" ypos="0.0225322" zpos="-526.167" type="Linus_VoE_Chest_Farm.sw.cfr.cfrs" GUID="FHR95I/IPU+U8o+5jnb75A==" inGameVisibility="0" mapDisplaySize="45"/>
 		<POI MapID="1593" xpos="-152.406" ypos="65.281" zpos="-83.9609" type="Linus_VoE_Chest_Farm.sw.macs.p2mm" GUID="Yka8Domx3k6yuruHqsv+kg==" inGameVisibility="0"/>
 		<POI MapID="1593" xpos="-72.8839" ypos="6.59028" zpos="391.675" type="Linus_VoE_Chest_Farm.sw.macs.p3mm" GUID="1GrV8sVk5U+I519JpbqtYw==" inGameVisibility="0"/>
 		
-		<POI MapID="1595" xpos="244.773" ypos="1.83484" zpos="-460.432" type="Linus_VoE_Chest_Farm.sws.cfr.cfrs" GUID="G4th77W7DEy2N6T2KHJrZQ==" inGameVisibility="0" mapDisplaySize="45"/>
+		<POI MapID="1595" xpos="224.606" ypos="1.65662" zpos="-458.947" type="Linus_VoE_Chest_Farm.sws.macs.p1mm" GUID="CjfeWos/DEaSBqAjwbkQVw==" iconSize="0.3" miniMapVisibility="0" mapVisibility="0"/>
+		<POI MapID="1595" xpos="218.702" ypos="12.5638" zpos="274.385" type="Linus_VoE_Chest_Farm.sws.macs.p1e" GUID="M/F1mVCBrkKsWkUR6mR1BA==" copy="[&BJwPAAA=]" copy-message="Dark Leviathan waypoint copied!" iconSize="0.8" miniMapVisibility="0" mapVisibility="0"/>
 
-		<POI MapID="1595" xpos="222.037" ypos="1.73271" zpos="-456.96" type="Linus_VoE_Chest_Farm.sws.macs.p1s" GUID="9nVFJb8BukOB6bosb6UyGA==" iconSize="0.5" mapDisplaySize="50" miniMapVisibility="0" mapVisibility="0"/>
-		<POI MapID="1595" xpos="217.388" ypos="12.7069" zpos="273.586" type="Linus_VoE_Chest_Farm.sws.macs.p1e" GUID="M/F1mVCBrkKsWkUR6mR1BA==" iconSize="1" miniMapVisibility="0" mapVisibility="0"/>
-		<POI MapID="1595" xpos="566.854" ypos="0.674902" zpos="663.934" type="Linus_VoE_Chest_Farm.sws.macs.p2s" GUID="R/XTpmotvk2Aha+xMObsIg==" iconSize="0.5" mapDisplaySize="50" miniMapVisibility="0" mapVisibility="0"/>
-		<POI MapID="1595" xpos="384.787" ypos="52.8636" zpos="367.012" type="Linus_VoE_Chest_Farm.sws.macs.p2e" GUID="Ad5iJd+phEqhCcPLSPQb3g==" miniMapVisibility="0" mapVisibility="0"/>
-		<POI MapID="1595" xpos="559.599" ypos="0.341958" zpos="662.142" type="Linus_VoE_Chest_Farm.sws.macs.p3s" GUID="VBjV1KBu4kukNEevihvJWQ==" iconSize="0.5" mapDisplaySize="50" miniMapVisibility="0" mapVisibility="0"/>
-		<POI MapID="1595" xpos="-212.43" ypos="26.5245" zpos="-16.7801" type="Linus_VoE_Chest_Farm.sws.macs.p3e" GUID="hzimEHp8qku2zhWwlaJ34A==" miniMapVisibility="0" mapVisibility="0"/>
-		<POI MapID="1595" xpos="224.606" ypos="1.65662" zpos="-458.947" type="Linus_VoE_Chest_Farm.sws.macs.p4s" GUID="CjfeWos/DEaSBqAjwbkQVw==" iconSize="0.5" mapDisplaySize="50" miniMapVisibility="0" mapVisibility="0"/>
-		<POI MapID="1595" xpos="-126.71" ypos="81.2012" zpos="-473.811" type="Linus_VoE_Chest_Farm.sws.macs.p4e" GUID="OY0qD6d1WkGrm7eTqx7AOw==" miniMapVisibility="0" mapVisibility="0"/>
-		<POI MapID="1595" xpos="561.851" ypos="0.343759" zpos="663.936" type="Linus_VoE_Chest_Farm.sws.macs.p5s" GUID="yBhWM6HatEOXvtGGb7CjWA==" iconSize="0.5" mapDisplaySize="50" miniMapVisibility="0" mapVisibility="0"/>
-		<POI MapID="1595" xpos="-88.4894" ypos="64.8162" zpos="839.323" type="Linus_VoE_Chest_Farm.sws.macs.p5e" GUID="gR9VWQ0600CUVf3WS+aOKg==" miniMapVisibility="0" mapVisibility="0"/>
-		<POI MapID="1595" xpos="219.664" ypos="0.336729" zpos="-467.089" type="Linus_VoE_Chest_Farm.sws.macs.p6s" GUID="gLNDGgNwuUGbf8rkMVF64w==" iconSize="0.5" mapDisplaySize="50" miniMapVisibility="0" mapVisibility="0"/>
+		<POI MapID="1595" xpos="564.534" ypos="0.460074" zpos="664.485" type="Linus_VoE_Chest_Farm.sws.macs.p2mm" GUID="R/XTpmotvk2Aha+xMObsIg==" iconSize="0.3" miniMapVisibility="0" mapVisibility="0"/>
+		<POI MapID="1595" xpos="384.787" ypos="52.8636" zpos="367.012" type="Linus_VoE_Chest_Farm.sws.macs.p2e" GUID="Ad5iJd+phEqhCcPLSPQb3g==" copy="[&BJwPAAA=]" copy-message="Dark Leviathan waypoint copied!" iconSize="1.2" miniMapVisibility="0" mapVisibility="0"/>
+		
+		<POI MapID="1595" xpos="561.96" ypos="0.387407" zpos="663.099" type="Linus_VoE_Chest_Farm.sws.macs.p3mm" GUID="VBjV1KBu4kukNEevihvJWQ==" iconSize="0.3" miniMapVisibility="0" mapVisibility="0"/>
+		<POI MapID="1595" xpos="-213.349" ypos="27.3954" zpos="-15.1845" type="Linus_VoE_Chest_Farm.sws.macs.p3e" GUID="hzimEHp8qku2zhWwlaJ34A==" copy="[&BIIPAAA=]" copy-message="Pub Canach waypoint copied!" iconSize="1.2" miniMapVisibility="0" mapVisibility="0"/>
+		
+		<POI MapID="1595" xpos="222.037" ypos="1.73271" zpos="-456.96" type="Linus_VoE_Chest_Farm.sws.macs.p4mm" GUID="9nVFJb8BukOB6bosb6UyGA==" iconSize="0.3" miniMapVisibility="0" mapVisibility="0"/>
+		<POI MapID="1595" xpos="-126.71" ypos="81.2012" zpos="-473.811" type="Linus_VoE_Chest_Farm.sws.macs.p4e" GUID="OY0qD6d1WkGrm7eTqx7AOw==" copy="[&BJwPAAA=]" copy-message="Dark Leviathan waypoint copied!" iconSize="0.8" miniMapVisibility="0" mapVisibility="0"/>
+		
+		<POI MapID="1595" xpos="563.434" ypos="0.441343" zpos="663.68" type="Linus_VoE_Chest_Farm.sws.macs.p5mm" GUID="yBhWM6HatEOXvtGGb7CjWA==" iconSize="0.3" miniMapVisibility="0" mapVisibility="0"/>
+		<POI MapID="1595" xpos="-88.4894" ypos="64.8162" zpos="839.323" type="Linus_VoE_Chest_Farm.sws.macs.p5e" GUID="gR9VWQ0600CUVf3WS+aOKg==" copy="[&BIIPAAA=]" copy-message="Pub Canach waypoint copied!" iconSize="0.8" miniMapVisibility="0" mapVisibility="0"/>
+		
+		<POI MapID="1595" xpos="219.664" ypos="0.336729" zpos="-467.089" type="Linus_VoE_Chest_Farm.sws.macs.p6mm" GUID="gLNDGgNwuUGbf8rkMVF64w==" iconSize="0.3" miniMapVisibility="0" mapVisibility="0"/>
 
 		<POI MapID="1595" xpos="205.429" ypos="4.24954" zpos="-462.004" type="Linus_VoE_Chest_Farm.sws.macs.p6mm" GUID="rX0srKKaAkKCs6nNxNLLoQ==" inGameVisibility="0"/>
 		<POI MapID="1595" xpos="209.988" ypos="5.18596" zpos="-450.845" type="Linus_VoE_Chest_Farm.sws.macs.p4mm" GUID="sd1JNmHNGUyED60xz2wShg==" inGameVisibility="0"/>
@@ -219,16 +211,14 @@
 		<POI MapID="1595" xpos="-493.213" ypos="138.671" zpos="229.556" type="Linus_VoE_Chest_Farm.sws.mac.ocs" GUID="jX+4BcZMlkqcO1TDCEOW2g=="/>
 		
 		<Trail type="Linus_VoE_Chest_Farm.sw.cfr.p1" GUID="x4VPDZAqpE2DtIS9s+eupQ==" trailData="Data/Trails/Starlit_Weald_Path_1.trl"/>
-		<Trail type="Linus_VoE_Chest_Farm.sw.cfr.p2" GUID="oTcX3brLekeXv4TcQZH2aA==" trailData="Data/Trails/Starlit_Weald_Path_2.trl"/>
-		<Trail type="Linus_VoE_Chest_Farm.sw.cfr.p3" GUID="6L312GLR4UegctweYUQWHQ==" trailData="Data/Trails/Starlit_Weald_Path_3.trl"/>
+		<Trail type="Linus_VoE_Chest_Farm.sw.cfr.p2" GUID="tiRCKE5cvEiGck6pTTEN4Q==" trailData="Data/Trails/Starlit_Weald_Path_2.trl"/>
+		<Trail type="Linus_VoE_Chest_Farm.sw.cfr.p3" GUID="vkZ++aV2NkmfpPHOTv9E5w==" trailData="Data/Trails/Starlit_Weald_Path_3.trl"/>
 
 		<Trail type="Linus_VoE_Chest_Farm.sws.cfr.p1" GUID="En683Dz+4EedfrvFac7v2A==" trailData="Data/Trails/Shipwreck_Strand_Path_1.trl"/>
-		<Trail type="Linus_VoE_Chest_Farm.sws.cfr.p2" GUID="Dtc3zSUrv0uwEaWv/MYSGw==" trailData="Data/Trails/Shipwreck_Strand_Path_2.trl"/>
-		<Trail type="Linus_VoE_Chest_Farm.sws.cfr.p3" GUID="aXaI9GB7jkC4yzraux/bbQ==" trailData="Data/Trails/Shipwreck_Strand_Path_3.trl"/>
-		<Trail type="Linus_VoE_Chest_Farm.sws.cfr.p4" GUID="k9fxcLqQ+0yPAbk/3xcsSA==" trailData="Data/Trails/Shipwreck_Strand_Path_4.trl"/>
-		<Trail type="Linus_VoE_Chest_Farm.sws.cfr.p5" GUID="NjqeyFYMIkGh+b8iJCY23Q==" trailData="Data/Trails/Shipwreck_Strand_Path_5.trl"/>
+		<Trail type="Linus_VoE_Chest_Farm.sws.cfr.p2" GUID="WAK65k3X/0Ki2bze0XFtnA==" trailData="Data/Trails/Shipwreck_Strand_Path_2.trl"/>
+		<Trail type="Linus_VoE_Chest_Farm.sws.cfr.p3" GUID="0xpBjrn7Y0yCOhoxzFrG5Q==" trailData="Data/Trails/Shipwreck_Strand_Path_3.trl"/>
+		<Trail type="Linus_VoE_Chest_Farm.sws.cfr.p4" GUID="/DTmxsrMW0uS6FEARTQjuA==" trailData="Data/Trails/Shipwreck_Strand_Path_4.trl"/>
+		<Trail type="Linus_VoE_Chest_Farm.sws.cfr.p5" GUID="zKqXv7faQ0WKduDyHM1QUQ==" trailData="Data/Trails/Shipwreck_Strand_Path_5.trl"/>
 		<Trail type="Linus_VoE_Chest_Farm.sws.cfr.p6" GUID="lp3tgGfDMEyt2RgKMA5A5Q==" trailData="Data/Trails/Shipwreck_Strand_Path_6.trl"/>
-
-
 	</POIs>
 </OverlayData>
