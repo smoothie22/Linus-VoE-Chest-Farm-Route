@@ -2,7 +2,6 @@
     <MarkerCategory name="Linus_VoE_Chest_Farm" displayname="Linus VoE Chests Farm">
 		<MarkerCategory name="sws" displayName="Shipwreck Strand">
 			<MarkerCategory name="cfr" displayName="Chest Farm Route" fadeNear="3000" fadeFar="3500">
-				<MarkerCategory name="cfrs" displayName="Chest Farm Route Start" iconFile="Data/chest_farm_route_start.png"/>
 				<MarkerCategory name="p1" displayName="Path 1" texture="Data/Red_Trail.png"/>
 				<MarkerCategory name="p2" displayName="Path 2" texture="Data/Orange_Trail.png"/>
 				<MarkerCategory name="p3" displayName="Path 3" texture="Data/Yellow_Trail.png"/>
@@ -211,13 +210,13 @@
 		<POI MapID="1595" xpos="-493.213" ypos="138.671" zpos="229.556" type="Linus_VoE_Chest_Farm.sws.mac.ocs" GUID="jX+4BcZMlkqcO1TDCEOW2g=="/>
 		<POI MapID="1595" xpos="-10.1193" ypos="16.3541" zpos="-401.474" type="Linus_VoE_Chest_Farm.sws.mac.ocs" GUID="5gToxV+H8UafD0Bg8i8M5g=="/>
 		
-		<Trail type="Linus_VoE_Chest_Farm.sw.cfr.p1" GUID="x4VPDZAqpE2DtIS9s+eupQ==" trailData="Data/Trails/Starlit_Weald_Path_1.trl"/>
+		<Trail type="Linus_VoE_Chest_Farm.sw.cfr.p1" GUID="sciiE0WOaUC2Y0N8t3sY/A==" trailData="Data/Trails/Starlit_Weald_Path_1.trl"/>
 		<Trail type="Linus_VoE_Chest_Farm.sw.cfr.p2" GUID="tiRCKE5cvEiGck6pTTEN4Q==" trailData="Data/Trails/Starlit_Weald_Path_2.trl"/>
 		<Trail type="Linus_VoE_Chest_Farm.sw.cfr.p3" GUID="vkZ++aV2NkmfpPHOTv9E5w==" trailData="Data/Trails/Starlit_Weald_Path_3.trl"/>
 
-		<Trail type="Linus_VoE_Chest_Farm.sws.cfr.p1" GUID="En683Dz+4EedfrvFac7v2A==" trailData="Data/Trails/Shipwreck_Strand_Path_1.trl"/>
-		<Trail type="Linus_VoE_Chest_Farm.sws.cfr.p2" GUID="WAK65k3X/0Ki2bze0XFtnA==" trailData="Data/Trails/Shipwreck_Strand_Path_2.trl"/>
-		<Trail type="Linus_VoE_Chest_Farm.sws.cfr.p3" GUID="H30YPWANf0eW+z+f8sQGVA==" trailData="Data/Trails/Shipwreck_Strand_Path_3.trl"/>
+		<Trail type="Linus_VoE_Chest_Farm.sws.cfr.p1" GUID="yTZqXQzULkmGkOeAjeUpHw==" trailData="Data/Trails/Shipwreck_Strand_Path_1.trl"/>
+		<Trail type="Linus_VoE_Chest_Farm.sws.cfr.p2" GUID="CduJFvWvM0GAdLoMegEO4A==" trailData="Data/Trails/Shipwreck_Strand_Path_2.trl"/>
+		<Trail type="Linus_VoE_Chest_Farm.sws.cfr.p3" GUID="i4mrQH0WuESPfkjVRm0XGA==" trailData="Data/Trails/Shipwreck_Strand_Path_3.trl"/>
 		<Trail type="Linus_VoE_Chest_Farm.sws.cfr.p4" GUID="/DTmxsrMW0uS6FEARTQjuA==" trailData="Data/Trails/Shipwreck_Strand_Path_4.trl"/>
 		<Trail type="Linus_VoE_Chest_Farm.sws.cfr.p5" GUID="zKqXv7faQ0WKduDyHM1QUQ==" trailData="Data/Trails/Shipwreck_Strand_Path_5.trl"/>
 		<Trail type="Linus_VoE_Chest_Farm.sws.cfr.p6" GUID="lp3tgGfDMEyt2RgKMA5A5Q==" trailData="Data/Trails/Shipwreck_Strand_Path_6.trl"/>
