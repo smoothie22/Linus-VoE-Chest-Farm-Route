@@ -54,7 +54,7 @@
 	</MarkerCategory>
 
 	<POIs>
-		<POI MapID="1593" xpos="501.959" ypos="2.59033" zpos="-530.748" type="Linus_VoE_Chest_Farm.sw.macs.p1mm" GUID="gYLg3QCvZUW4/JKaGi75BA==" iconSize="0.3" miniMapVisibility="0" mapVisibility="0"/>
+		<POI MapID="1593" xpos="501.959" ypos="2.59033" zpos="-530.748" type="Linus_VoE_Chest_Farm.sw.macs.p1mm" GUID="gYLg3QCvZUW4/JKaGi75BA==" iconSize="0.3" miniMapVisibility="0" mapVisibility="0" inforange="3.5" info="Follow the paths in order 1-3 for an optimal mirror/chest run without needing any extra events for Ethereal Key Charges.&#xA;&#xA;Note: You must have the Wild Castoran Magic mastery line maxed out in order for this route to be effective."/>
 		<POI MapID="1593" xpos="-157.997" ypos="62.1176" zpos="-104.195" type="linus_voe_chest_farm.sw.macs.p2mm" GUID="7VHcn8H1Zk+gYpUTLu4uTQ==" iconSize="0.3" miniMapVisibility="0" mapVisibility="0"/>
 		<POI MapID="1593" xpos="-65.7593" ypos="4.26396" zpos="377.06" type="linus_voe_chest_farm.sw.macs.p3mm" GUID="zKNmUi5pQ0uD6C/zWWKcYQ==" iconSize="0.3" miniMapVisibility="0" mapVisibility="0"/>
 		<POI MapID="1593" xpos="850.561" ypos="50.7434" zpos="430.592" type="Linus_VoE_Chest_Farm.sw.macs.p1e" copy="[&BJ4PAAA=]" copy-message="Priory Expedition waypoint copied!" GUID="Du5zm2UxuEWB9CME/Nxk8w==" iconSize="0.8" miniMapVisibility="0" mapVisibility="0"/>
