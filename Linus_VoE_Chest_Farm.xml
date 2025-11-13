@@ -64,14 +64,14 @@
 		<POI MapID="1593" xpos="-152.406" ypos="65.281" zpos="-83.9609" type="Linus_VoE_Chest_Farm.sw.macs.p2mm" GUID="Yka8Domx3k6yuruHqsv+kg==" inGameVisibility="0"/>
 		<POI MapID="1593" xpos="-72.8839" ypos="6.59028" zpos="391.675" type="Linus_VoE_Chest_Farm.sw.macs.p3mm" GUID="1GrV8sVk5U+I519JpbqtYw==" inGameVisibility="0"/>
 		
-		<POI MapID="1595" xpos="224.606" ypos="1.65662" zpos="-458.947" type="Linus_VoE_Chest_Farm.sws.macs.p1mm" GUID="CjfeWos/DEaSBqAjwbkQVw==" iconSize="0.3" miniMapVisibility="0" mapVisibility="0"/>
+		<POI MapID="1595" xpos="224.606" ypos="1.65662" zpos="-458.947" type="Linus_VoE_Chest_Farm.sws.macs.p1mm" GUID="CjfeWos/DEaSBqAjwbkQVw==" iconSize="0.3" miniMapVisibility="0" mapVisibility="0" inforange="3.5" info="Follow the paths in order 1-6 for an optimal mirror/chest run without needing any extra events for Ethereal Key Charges.&#xA;&#xA;Note: You must have the Wild Castoran Magic mastery line maxed out in order for this route to be effective." />
 		<POI MapID="1595" xpos="218.702" ypos="12.5638" zpos="274.385" type="Linus_VoE_Chest_Farm.sws.macs.p1e" GUID="M/F1mVCBrkKsWkUR6mR1BA==" copy="[&BJwPAAA=]" copy-message="Dark Leviathan waypoint copied!" iconSize="0.8" miniMapVisibility="0" mapVisibility="0"/>
 
 		<POI MapID="1595" xpos="564.534" ypos="0.460074" zpos="664.485" type="Linus_VoE_Chest_Farm.sws.macs.p2mm" GUID="R/XTpmotvk2Aha+xMObsIg==" iconSize="0.3" miniMapVisibility="0" mapVisibility="0"/>
 		<POI MapID="1595" xpos="384.787" ypos="52.8636" zpos="367.012" type="Linus_VoE_Chest_Farm.sws.macs.p2e" GUID="Ad5iJd+phEqhCcPLSPQb3g==" copy="[&BJwPAAA=]" copy-message="Dark Leviathan waypoint copied!" iconSize="1.2" miniMapVisibility="0" mapVisibility="0"/>
 		
 		<POI MapID="1595" xpos="561.96" ypos="0.387407" zpos="663.099" type="Linus_VoE_Chest_Farm.sws.macs.p3mm" GUID="VBjV1KBu4kukNEevihvJWQ==" iconSize="0.3" miniMapVisibility="0" mapVisibility="0"/>
-		<POI MapID="1595" xpos="-213.349" ypos="27.3954" zpos="-15.1845" type="Linus_VoE_Chest_Farm.sws.macs.p3e" GUID="hzimEHp8qku2zhWwlaJ34A==" copy="[&BIIPAAA=]" copy-message="Pub Canach waypoint copied!" iconSize="1.2" miniMapVisibility="0" mapVisibility="0"/>
+		<POI MapID="1595" xpos="-9.2658" ypos="16.5159" zpos="-402.26" type="Linus_VoE_Chest_Farm.sws.macs.p3e" GUID="hzimEHp8qku2zhWwlaJ34A==" copy="[&BIIPAAA=]" copy-message="Pub Canach waypoint copied!" iconSize="1.2" miniMapVisibility="0" mapVisibility="0"/>
 		
 		<POI MapID="1595" xpos="222.037" ypos="1.73271" zpos="-456.96" type="Linus_VoE_Chest_Farm.sws.macs.p4mm" GUID="9nVFJb8BukOB6bosb6UyGA==" iconSize="0.3" miniMapVisibility="0" mapVisibility="0"/>
 		<POI MapID="1595" xpos="-126.71" ypos="81.2012" zpos="-473.811" type="Linus_VoE_Chest_Farm.sws.macs.p4e" GUID="OY0qD6d1WkGrm7eTqx7AOw==" copy="[&BJwPAAA=]" copy-message="Dark Leviathan waypoint copied!" iconSize="0.8" miniMapVisibility="0" mapVisibility="0"/>
@@ -209,6 +209,7 @@
 		<POI MapID="1595" xpos="-427.68" ypos="7.08873" zpos="-727.241" type="Linus_VoE_Chest_Farm.sws.mac.ocs" GUID="b7OPBJxj0kuRa2z/ZErfeA=="/>
 		<POI MapID="1595" xpos="188.105" ypos="42.0251" zpos="521.913" type="Linus_VoE_Chest_Farm.sws.mac.ocs" GUID="hO5yUjhbrUCrwh1PAZEDBA=="/>
 		<POI MapID="1595" xpos="-493.213" ypos="138.671" zpos="229.556" type="Linus_VoE_Chest_Farm.sws.mac.ocs" GUID="jX+4BcZMlkqcO1TDCEOW2g=="/>
+		<POI MapID="1595" xpos="-10.1193" ypos="16.3541" zpos="-401.474" type="Linus_VoE_Chest_Farm.sws.mac.ocs" GUID="5gToxV+H8UafD0Bg8i8M5g=="/>
 		
 		<Trail type="Linus_VoE_Chest_Farm.sw.cfr.p1" GUID="x4VPDZAqpE2DtIS9s+eupQ==" trailData="Data/Trails/Starlit_Weald_Path_1.trl"/>
 		<Trail type="Linus_VoE_Chest_Farm.sw.cfr.p2" GUID="tiRCKE5cvEiGck6pTTEN4Q==" trailData="Data/Trails/Starlit_Weald_Path_2.trl"/>
@@ -216,7 +217,7 @@
 
 		<Trail type="Linus_VoE_Chest_Farm.sws.cfr.p1" GUID="En683Dz+4EedfrvFac7v2A==" trailData="Data/Trails/Shipwreck_Strand_Path_1.trl"/>
 		<Trail type="Linus_VoE_Chest_Farm.sws.cfr.p2" GUID="WAK65k3X/0Ki2bze0XFtnA==" trailData="Data/Trails/Shipwreck_Strand_Path_2.trl"/>
-		<Trail type="Linus_VoE_Chest_Farm.sws.cfr.p3" GUID="0xpBjrn7Y0yCOhoxzFrG5Q==" trailData="Data/Trails/Shipwreck_Strand_Path_3.trl"/>
+		<Trail type="Linus_VoE_Chest_Farm.sws.cfr.p3" GUID="H30YPWANf0eW+z+f8sQGVA==" trailData="Data/Trails/Shipwreck_Strand_Path_3.trl"/>
 		<Trail type="Linus_VoE_Chest_Farm.sws.cfr.p4" GUID="/DTmxsrMW0uS6FEARTQjuA==" trailData="Data/Trails/Shipwreck_Strand_Path_4.trl"/>
 		<Trail type="Linus_VoE_Chest_Farm.sws.cfr.p5" GUID="zKqXv7faQ0WKduDyHM1QUQ==" trailData="Data/Trails/Shipwreck_Strand_Path_5.trl"/>
 		<Trail type="Linus_VoE_Chest_Farm.sws.cfr.p6" GUID="lp3tgGfDMEyt2RgKMA5A5Q==" trailData="Data/Trails/Shipwreck_Strand_Path_6.trl"/>
