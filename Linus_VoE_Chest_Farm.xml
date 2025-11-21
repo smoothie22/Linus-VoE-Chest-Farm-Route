@@ -48,7 +48,15 @@
 					</MarkerCategory>
 				</MarkerCategory>
 				<MarkerCategory name="cfr_mm_lc" displayName="Magic Mirrors and Large Chests Only" defaulttoggle="0">
+					<MarkerCategory name="p1" displayName="Path 1" texture="Data/Red_Trail.png"/>
+					<MarkerCategory name="p2" displayName="Path 2" texture="Data/Orange_Trail.png"/>
+					
+					<MarkerCategory name="macs" displayName="Mirrors and Chests Signs">
+						<MarkerCategory name="p1e" displayName="Path 1 End" iconFile="Data/v2/info_box_path_1_end.png"/>
 
+						<MarkerCategory name="p1mm" displayName="Path 1 Mini Marker" iconFile="Data/mini_map_path_1.png"/>
+						<MarkerCategory name="p2mm" displayName="Path 2 Mini Marker" iconFile="Data/mini_map_path_2.png"/>
+					</MarkerCategory>
 				</MarkerCategory>
 			</MarkerCategory>
 			<MarkerCategory name="mac" displayName="Mirrors and Chests">
@@ -100,7 +108,11 @@
 					</MarkerCategory>
 				</MarkerCategory>
 				<MarkerCategory name="cfr_mm_lc" displayName="Magic Mirrors and Large Chests Only" defaulttoggle="0">
-
+					<MarkerCategory name="p1" displayName="Path 1" texture="Data/Red_Trail.png"/>
+					
+					<MarkerCategory name="macs" displayName="Mirrors and Chests Signs">
+						<MarkerCategory name="p1mm" displayName="Path 1 Mini Marker" iconFile="Data/mini_map_path_1.png"/>
+					</MarkerCategory>
 				</MarkerCategory>
 			</MarkerCategory>
 			<MarkerCategory name="mac" displayName="Mirrors and Chests">
@@ -269,8 +281,8 @@
 		<POI MapID="1595" xpos="228.555" ypos="1.56541" zpos="-458.24" type="Linus_VoE_Chest_Farm.sws.cfr.cfr_v2.macs.p1mm" GUID="IRxwxp3EE0iMqy0B9a58Og==" iconSize="0.3" miniMapVisibility="0" mapVisibility="0"  inforange="3.5" info="Before you begin this path, you will need to have a minimum of 20 Key Charges.&#xA;&#xA;This can be done by doing events around the map.  The easiest is doing rift events.&#xA;&#xA;Once you have at least 20 Ethereal Key Charges, follow the paths in order 1-5.&#xA;&#xA;Be sure to look out for other info boxes that will let you know when you need to do more events.&#xA;&#xA;Note: You must have the Wild Castoran Magic mastery line maxed out in order for this route to be effective."/>
 		<POI MapID="1595" xpos="561.873" ypos="1.01501" zpos="667.483" type="Linus_VoE_Chest_Farm.sws.cfr.cfr_v2.macs.p2mm" GUID="2WFdCal+QkK51SVsvO3HDQ==" iconSize="0.3" miniMapVisibility="0" mapVisibility="0"/>
 		<POI MapID="1595" xpos="558.616" ypos="0.929847" zpos="657.006" type="Linus_VoE_Chest_Farm.sws.cfr.cfr_v2.macs.p3mm" GUID="at3tzVg2n0SwxUDEmYAVuQ==" iconSize="0.3" miniMapVisibility="0" mapVisibility="0" inforange="3.5" info="Before you begin this path, you will need to have a minimum of 25 Key Charges.&#xA;&#xA;This can be done by doing events around the map.  The easiest is doing rift events."/>
-		<POI MapID="1595" xpos="224.557" ypos="1.68536" zpos="-454.425" type="Linus_VoE_Chest_Farm.sws.cfr.cfr_v2.macs.p4mm" GUID="AsKwNgCb7kKUaaXIULKdeg==" iconSize="0.3" miniMapVisibility="0" mapVisibility="0"/>
-		<POI MapID="1595" xpos="216.465" ypos="2.04703" zpos="-463.048" type="Linus_VoE_Chest_Farm.sws.cfr.cfr_v2.macs.p5mm" GUID="BO9Vb+uddUOuoHnZ+rv2dQ==" iconSize="0.3" miniMapVisibility="0" mapVisibility="0" inforange="3.5" info="Before you begin this path, you will need to have a minimum of 24 Key Charges.&#xA;&#xA;This can be done by doing events around the map.  The easiest is doing rift events."/>
+		<POI MapID="1595" xpos="212.974" ypos="3.27058" zpos="-457.698" type="Linus_VoE_Chest_Farm.sws.cfr.cfr_v2.macs.p4mm" GUID="AsKwNgCb7kKUaaXIULKdeg==" iconSize="0.3" miniMapVisibility="0" mapVisibility="0"/>
+		<POI MapID="1595" xpos="216.465" ypos="2.04703" zpos="-463.048" type="Linus_VoE_Chest_Farm.sws.cfr.cfr_v2.macs.p5mm" GUID="BO9Vb+uddUOuoHnZ+rv2dQ==" iconSize="0.3" miniMapVisibility="0" mapVisibility="0" inforange="3.5" info="Before you begin this path, you will need to have a minimum of 22 Key Charges.&#xA;&#xA;This can be done by doing events around the map.  The easiest is doing rift events."/>
 		
 		<POI MapID="1595" xpos="217.219" ypos="13.1913" zpos="274.183" type="Linus_VoE_Chest_Farm.sws.cfr.cfr_v2.macs.p1e" GUID="YdrwJfCBbkaw7UwopK2nYg==" copy="[&BJwPAAA=]" copy-message="Dark Leviathan waypoint copied!" iconSize="0.8" miniMapVisibility="0" mapVisibility="0"/>
 		<POI MapID="1595" xpos="-278.426" ypos="38.2706" zpos="609.743" type="Linus_VoE_Chest_Farm.sws.cfr.cfr_v2.macs.p2e" GUID="wDcORVf4v0SpT42k4MhFLg==" copy="[&BJwPAAA=]" copy-message="Dark Leviathan waypoint copied!" iconSize="0.8" miniMapVisibility="0" mapVisibility="0"/>
@@ -291,9 +303,19 @@
 		<Trail type="Linus_VoE_Chest_Farm.sws.cfr.cfr_v2.p1" GUID="8/2Gd/4CbkuaEuTAFMB8ew==" trailData="Data/Trails/v2/Shipwreck_Strand_Path_1.trl"/>
 		<Trail type="Linus_VoE_Chest_Farm.sws.cfr.cfr_v2.p2" GUID="3G3WUxv7VU26tHjcWZMABw==" trailData="Data/Trails/v2/Shipwreck_Strand_Path_2.trl"/>
 		<Trail type="Linus_VoE_Chest_Farm.sws.cfr.cfr_v2.p3" GUID="jaN/5dynnkK4CG+DTdBjSQ==" trailData="Data/Trails/v2/Shipwreck_Strand_Path_3.trl"/>
-		<Trail type="Linus_VoE_Chest_Farm.sws.cfr.cfr_v2.p4" GUID="KoN2DYGTgEGadTsQHaQrSg==" trailData="Data/Trails/v2/Shipwreck_Strand_Path_4.trl"/>
+		<Trail type="Linus_VoE_Chest_Farm.sws.cfr.cfr_v2.p4" GUID="xt3DEqWWz0CvbsolHsS2oQ==" trailData="Data/Trails/v2/Shipwreck_Strand_Path_4.trl"/>
 		<Trail type="Linus_VoE_Chest_Farm.sws.cfr.cfr_v2.p5" GUID="hCfk9zSYb0S/6oWsg6cTdg==" trailData="Data/Trails/v2/Shipwreck_Strand_Path_5.trl"/>
 		<!-- End Shipwreck Strand V2-->
+
+		<!-- Shipwreck Strand Mirrors and Large Chests -->
+		<POI MapID="1595" xpos="230.421" ypos="1.04724" zpos="-455.388" type="Linus_VoE_Chest_Farm.sws.cfr.cfr_mm_lc.macs.p1mm" GUID="658iqYRS8ECivXejUK0xLA==" iconSize="0.3" miniMapVisibility="0" mapVisibility="0" inforange="3.5" info="This route only hits mirrors and large chests.  No additional events are needed for this route."/>
+		<POI MapID="1595" xpos="557.5" ypos="0.120514" zpos="672.064" type="Linus_VoE_Chest_Farm.sws.cfr.cfr_mm_lc.macs.p2mm" GUID="O2c4iYlJg06In0Tyzk5Scg==" iconSize="0.3" miniMapVisibility="0" mapVisibility="0"/>
+
+		<POI MapID="1595" xpos="-57.575" ypos="32.3025" zpos="-44.6275" type="Linus_VoE_Chest_Farm.sws.cfr.cfr_mm_lc.macs.p1e" GUID="zyXKFZXuJ0mnTzFcoc0p8Q==" copy="[&BJwPAAA=]" copy-message="Dark Leviathan waypoint copied!" iconSize="0.8" miniMapVisibility="0" mapVisibility="0"/>
+		
+		<Trail type="Linus_VoE_Chest_Farm.sws.cfr.cfr_mm_lc.p1" GUID="EvbTgQTVWEKXSy0xkMqDvw==" trailData="Data/Trails/mirrors_and_large_chests/Shipwreck_Strand_MM_and_LC_only_Path_1.trl"/>
+		<Trail type="Linus_VoE_Chest_Farm.sws.cfr.cfr_mm_lc.p2"GUID="xY/MbGszn0uMEx2hBNUTBQ==" trailData="Data/Trails/mirrors_and_large_chests/Shipwreck_Strand_MM_and_LC_only_Path_2.trl"/>
+		<!-- End Shipwreck Strand Mirrors and Large Chests -->
 		
 		<!-- Starlit Weald V1 -->
 		<POI MapID="1593" xpos="501.959" ypos="2.59033" zpos="-530.748" type="Linus_VoE_Chest_Farm.sw.cfr.cfr_v1.macs.p1mm" GUID="gYLg3QCvZUW4/JKaGi75BA==" iconSize="0.3" miniMapVisibility="0" mapVisibility="0" inforange="3.5" info="Afer Anet nerf'd the chests and mirrors, this farm route is no longer optimal.  Keeping this available though incase it's ever reverted.&#xA;&#xA;Follow the paths in order 1-3 for an optimal mirror/chest run without needing any extra events for Ethereal Key Charges.&#xA;&#xA;Note: You must have the Wild Castoran Magic mastery line maxed out in order for this route to be effective."/>
@@ -340,5 +362,10 @@
 		<Trail type="Linus_VoE_Chest_Farm.sw.cfr.cfr_v2.p5" GUID="mvc2a4PhXUqpICUIuw53Qw==" trailData="Data/Trails/v2/Starlit_Weald_Path_5.trl"/>
 		<Trail type="Linus_VoE_Chest_Farm.sw.cfr.cfr_v2.p6" GUID="ZU2XlwwEYUa34za3L4Vi0Q==" trailData="Data/Trails/v2/Starlit_Weald_Path_6.trl"/>
 		<!-- End Starlit Weald V2 -->
+
+		<!-- Starlit Weald Mirrors and Large Chests -->
+		<POI MapID="1593" xpos="497.69" ypos="2.62534" zpos="-538.108" type="Linus_VoE_Chest_Farm.sw.cfr.cfr_mm_lc.macs.p1mm" GUID="2/mB8BIgUEuYW9oRZoQQqw==" iconSize="0.3" miniMapVisibility="0" mapVisibility="0" inforange="3.5" info="This route only hits mirrors and large chests.  No additional events are needed for this route."/>
+		<Trail type="Linus_VoE_Chest_Farm.sw.cfr.cfr_mm_lc.p1" GUID="GzYo0aO2hUaPpBGOPvxCYA==" trailData="Data/Trails/mirrors_and_large_chests/Starlit_Weald_MM_and_LC_only_Path_1.trl"/>
+		<!-- End Starlit Weald Mirrors and Large Chests -->
 	</POIs>
 </OverlayData>
